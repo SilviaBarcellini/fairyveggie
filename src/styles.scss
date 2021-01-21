@@ -1,7 +1,8 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
+/* myStyle.scss */
+
+$body-color: blue;
 $primary: hotpink;
 $font-family-base: Arial;
 
@@ -9,6 +10,16 @@ $font-family-base: Arial;
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+
 body {
+  background-color: black;
+  padding: 50px;
+}
+
+img {
+  size: 50px;
+}
+
+section {
   padding: 20px;
 }

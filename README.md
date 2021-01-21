@@ -19,7 +19,7 @@ npm run dev
 Create a production bundle.
 
 ```
-npm run build
+
 ```
 
 This command creates a optimized build in `/dist` folder which is ready for deployment.
