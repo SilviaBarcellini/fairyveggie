@@ -2,8 +2,8 @@
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 /* myStyle.scss */
 
-$body-color: blue;
-$primary: hotpink;
+$body-color: black;
+$primary: blue;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -12,7 +12,7 @@ $font-family-base: Arial;
 // Add you custom CSS
 
 body {
-  background-color: black;
+  background-color: lemonchiffon;
   padding: 50px;
 }
 
@@ -22,4 +22,9 @@ img {
 
 section {
   padding: 20px;
+}
+
+span {
+  color: green;
+  background-color: green;
 }
